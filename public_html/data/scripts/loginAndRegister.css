@@ -1,0 +1,47 @@
+div.registerForm{
+    color: grey; 
+    border-bottom: 0px solid #ABABAB;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+div.registerFormTitle{
+    width:500px;
+    height:40px;
+    margin-top:0px;
+}
+
+div.registerFormTitle h3{
+    color: black;
+    text-align: center;
+}
+
+input.registerForm{
+    width:98%;
+}
+
+input.registerFormPwd{
+   width:48%;
+   display:inline-block;
+}
+
+div.registerForm button{
+    width:50%;
+    alignment-adjust: middle;
+}
+
+select.UserProfilePic{
+    height:100px;
+}
+
+
+select.UserProfilePic option{
+    font-size: 80px;
+    height:100px;
+    align:center;
+    background-position:center;
+}
+
+

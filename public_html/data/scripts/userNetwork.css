@@ -1,0 +1,65 @@
+/* 
+    Document   : userNetwork.css
+    Created on : 02-Jan-2016, 00:26:35
+    Author     : Dumisani
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.UserBlock {
+    width:328px;
+    height:200px;
+    background-color: rgba(245,245,245, 1);
+    display:inline-block;
+    margin-top:5px;
+    
+}
+div.UserBlock table{
+    float:top;
+    margin:0px;
+    padding:0px;
+}
+
+div.UserBlock table tr{
+    float:top;
+}
+
+td.UserDetails{
+    margin-top: 5px;
+    width:150px;
+}
+
+td.UserDetails strong{
+    float:top;
+}
+
+img.UserPic{
+    width:150px;
+    height:150px;
+    float:top;
+}
+
+a.UserName{
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    text-decoration:none;       /*Remove underline*/
+    font-size: 16px;
+    color: rgb(50,50,155);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    float:top;
+}
+
+div.UserBlock p{
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    float:top;
+}
+
+div.UserBlock button{
+    width:150px;
+    height: 30px;
+    margin:0px;
+    padding:0px;
+}

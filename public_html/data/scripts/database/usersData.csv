@@ -1,0 +1,10 @@
+userID,firstname,lastname,skills,profession,qualifications,provinceID,city,email,password,contactDetails,pictureURL
+1,Dumisani,Kunene,Programming,CSIR,NULL,2,Johannesburg,NULL,NULL,NULL,data/images/userPic.jpg
+2,"Joe Zavha",Hlungwani,"Data Analyst",Vodacom,NULL,2,Midrand,NULL,NULL,NULL,data/images/blackSilhouette4.jpg
+3,"Thabani ""Boss Zonke""",Joyisa,"Business Analyst","Standard Bank",NULL,3,Durban,NULL,NULL,NULL,data/images/blackSilhouette2.jpg
+4,Zinhle,Masombuka,Accountant,Abbeydale,NULL,5,"East Rand",NULL,NULL,NULL,data/images/blackSilhouette.jpg
+5,Mkhuseli,Ngxande,Researcher,CSIR,NULL,1,"Quens Town",NULL,NULL,NULL,data/images/blackSilhouette3.jpg
+6,Livhuwane,Mashudu,Carpenter,"Builders Consultant",NULL,4,Thoyandou,NULL,NULL,NULL,data/images/blackSilhouette4.jpg
+7,Asanda,Mbathane,"Boiler Technitian",Eskom,NULL,1,Mthata,NULL,NULL,NULL,data/images/blackSilhouette2.jpg
+9,khaya,kunene,freelencer,animator,"Degree in ....",2,soweto,khayakunene@live.com,windows,,data/images/blackSilhouette.jpg
+11,Sharlton,Fani,Locum,Pharmasist,diploma,4,Thoyando,sharliefani@myuwc.ac.za,fani31,,data/images/blackSilhouette.jpg

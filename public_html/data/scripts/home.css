@@ -2,17 +2,43 @@
     Created on : 05-Dec-2015, 14:29:35
     Author     : Dumisani
     Description:
-        Purpose of the stylesheet follows. Main page structureand style
+        CSS for the Main page structure and style
 */
 
-h1.site-title{
-    font-size: 40px;
-    font-weight: bold;
+div.SiteBranding{           /*For both the LHS SiteTitle div and also the RHS dive for the search area and user login info*/
+    height: 80px;
 }
 
-.site-title a {
+div.SiteBranding div{           /*For both the LHS SiteTitle div and also the RHS dive for the search area and user login info*/
+    display: inline-block;
+}
+    
+
+div.siteTitle{
+    width: 60%;
+    height: 100%;
+}
+h1.siteTitle{
+    font-size: 40px;
+    font-weight: bold;
+    display:inline-block;
+}
+.siteTitle a {
     color: #111;
     text-decoration:none;
+}
+
+div.searchToolArea{
+    width: 35%;
+    height: 80px;
+    float:right;
+}
+input.searchToolArea{
+    width: 250;
+    height:20px;
+    float:right;                /*Push to the right of the Div*/
+    resize: none;
+    
 }
 
 body{
@@ -23,7 +49,7 @@ body{
 /*Entire Page frame Panel*/
 body div.Page{
     /*To align the page to the center:
-    Set a fixed with, then asing the left and right margins to auto*/
+    Set a fixed width and asign the left and right margins to auto*/
     width:1000px;
     margin-left:auto;
     margin-right:auto;              
@@ -39,21 +65,26 @@ body div.EntireMenu{
 }
 
 div.EntireMenu ul{
-    list-style: outside none none;  
+    margin: 0px;
+    padding: 0px;       /*Ensured that the list starts immediately at begining of the Menu Div*/
+    list-style-type: none;        /*list-style: outside none none;  */
     height: 100%;   /*Somehow, this only works if I do the same for the li{} below*/
 }
 
 div.EntireMenu li{
     display:inline-block;
-    height: 100%;       
-  
+    height: 100%;    
+    border-right: 0.5px hidden lightgray;      /*<border-style> = none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset*/
+    /*border-radius: 0px 5px 0px 0px;*/
 }
 
 div.EntireMenu li a{
+    height: 40px;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px 10px 0px 5px;      /*top right bottom left	*/
-    display: Box;
+    
+    padding: 5px 10px 0px 10px;      /*top right bottom left	*/
+    display: block;
     text-decoration:none; /*Removes Underline on href*/
 }
 
@@ -71,7 +102,7 @@ img.MenuPicture{
 NB: This should be an iframe or frameset */
 body div.contentPanel{
     /*Set the top and bottom margins*/
-    margin-top:5px;
+    margin-top:0px;
     margin-bottom: 10px;
     bottom:auto;
     overflow:auto;

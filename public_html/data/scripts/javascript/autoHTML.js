@@ -4,7 +4,6 @@
  */
 
 $(document).ready(function(){       //Or $(function(){
-    
 
     //jQuery();      //Instead of using JQuery(), you can use the dollar sign :-) $()
 

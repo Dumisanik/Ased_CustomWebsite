@@ -1,4 +1,4 @@
-load data local infile 'C:/wamp/www/usersData.csv'
+load data local infile 'usersData.csv'
 into table users
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 ESCAPED BY '"' 

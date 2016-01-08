@@ -2,25 +2,22 @@
 
 function ValidateRegistrationForm(inputBoxObj){
     //var nameTxt = inputBoxObj.getAttributeNode("name");
-    //doesUserInputSeemGood = true;
-    var myString = inputBoxObj.value;
+    doesUserInputSeemGood = false;
+    
+    var myString = inputBoxObj.value.toString();
 
-    if(inputBoxObj.name == "firstname"){
-        //var myString = inputBoxObj.name.toString().length;
-        
-        var intLen = length(myString);
-        alert("Validating..."+inputBoxObj.name );
-        alert("Length = "+myString);
+    if(inputBoxObj.name == "firstname" || inputBoxObj.name == "lastname" ){
+        //alert("Validating..."+inputBoxObj.name );
+        var intLen = myString.length;
+        if(intLen==0){
+            alert("Required field."+ " Put your +"+inputBoxObj.name);
+        }
     }
  
-    else if(inputBoxObj.name == "lastname"){
-        alert("Validating..."+inputBoxObj.name);
-    }
   
     else if(inputBoxObj.name == "password1"){
-        var intLen = length(inputBoxObj.value);
+        var intLen = myString.length;
         if(intLen<4){
-            alert();
             alert("Password must contain atleast four characters. !"+myString);
         }
         
